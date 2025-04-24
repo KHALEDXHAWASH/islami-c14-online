@@ -23,4 +23,8 @@ class AssetsManager {
   static const String hadithTabBackground = "$base/hadith_ tab_background.png";
   static const String hadithCardBackground = "$base/hadith_card_background.png";
   static const String hadithCardBottom = "$base/hadith_card_bottom_image.png";
+  static const String tsbe7bg = "$base/Background.png";
+  static const String tsbe7logo = "$base/tlogo.png";
+  static const String seb7a = "$base/Sebha.png";
+
 }
