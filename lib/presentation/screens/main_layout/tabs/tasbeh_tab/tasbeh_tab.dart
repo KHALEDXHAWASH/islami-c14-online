@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import '../../../../../core/assets_manager.dart';
+
 class TasbehTab extends StatefulWidget {
   const TasbehTab({super.key});
 
@@ -38,7 +40,7 @@ class _TasbehTabState extends State<TasbehTab> {
       children: [
         Positioned.fill(
           child: Image.asset(
-            'assets/Background.png',
+            AssetsManager.tsbe7bg,
             fit: BoxFit.cover,
           ),
         ),
@@ -47,7 +49,7 @@ class _TasbehTabState extends State<TasbehTab> {
             children: [
               const SizedBox(height: 60),
               Image.asset(
-                'assets/tlogo.png',
+                AssetsManager.tsbe7logo,
                 height: size.height * 0.14,
               ),
               const SizedBox(height: 40),
@@ -69,7 +71,7 @@ class _TasbehTabState extends State<TasbehTab> {
                     Transform.rotate(
                       angle: _angle,
                       child: Image.asset(
-                        "assets/Sebha.png",
+                        AssetsManager.seb7a,
                         width: size.width * 0.8,
                         height: size.height * 0.4,
                       ),
